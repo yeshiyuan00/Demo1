@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ysy="http://schemas.android.com/apk/res/com.exp.ysy.demo"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.customview01.view.CustomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        ysy:image="@drawable/ic_launcher"
+        ysy:imageScaleType="center"
+        ysy:titleText="hello CustomImageview !"
+        ysy:titleTextColor="#0000ff"
+        ysy:titleTextSize="30sp" />
+    
+    <com.example.customview01.view.CustomImageView
+        android:layout_width="100dp"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:padding="10dp"
+          ysy:image="@drawable/ic_launcher"
+          ysy:imageScaleType="center"
+          ysy:titleText="helloworldwelcome"
+          ysy:titleTextColor="#00ff00"
+          ysy:titleTextSize="20sp"
+    />
+    
+    <com.example.customview01.view.CustomImageView
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            ysy:image="@drawable/lmj"
+            ysy:imageScaleType="center"
+            ysy:titleText="妹子~"
+            ysy:titleTextColor="#ff0000"
+            ysy:titleTextSize="12sp"
+    />
+
+</LinearLayout><!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/layout/layout_customimageview.xml -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <padding
+        android:left="7dp"
+        android:top="7dp"
+        android:right="7dp"
+        android:bottom="7dp" />
+
+    <corners android:radius="8dp" />
+    <gradient
+        android:startColor="#ff0"
+        android:endColor="#00f"
+        android:type="sweep"
+        android:angle="45" />
+
+</shape><!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/drawable-hdpi/my_shape_3.xml -->

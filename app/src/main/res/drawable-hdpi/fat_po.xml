@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!--指定动画循环播放-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!--添加多个帧-->
+    <item
+        android:drawable="@drawable/panda1"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/panda2"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/panda3"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/panda4"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/panda5"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/panda6"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/panda7"
+        android:duration="150" />
+    <item
+        android:drawable="@drawable/panda8"
+        android:duration="150" />
+</animation-list>

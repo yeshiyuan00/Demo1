@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <subclass.MarqueeTextview
+        android:id="@+id/textview1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/marquee1"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:textColor="#0000ff"
+        android:focusableInTouchMode="true" />
+
+    <subclass.MarqueeTextview
+        android:id="@+id/textview2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="@string/marquee2"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:textColor="#110055"
+        android:focusableInTouchMode="true" />
+</LinearLayout>
+<!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/layout/layout_marqueetextview.xml -->

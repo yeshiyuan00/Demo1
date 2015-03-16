@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<books xmlns:android="http://schemas.android.com/apk/res/android">
+    <book
+        price="99.0"
+        出版日期="2008年">疯狂Java讲义
+    </book>
+    <book
+        price="89.0"
+        出版日期="2009年">疯狂Android讲义
+    </book>
+    <book
+        price="69.0"
+        出版日期="2009年">疯狂C讲义
+    </book>
+</books><!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/xml/books.xml -->

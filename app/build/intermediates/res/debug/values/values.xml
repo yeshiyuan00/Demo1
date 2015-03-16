@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <string-array name="list">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/values/attr.xml -->
+    <eat-comment/>
+    <attr format="reference" name="bg"/>
+    <attr format="dimension" name="circleWidth"/>
+    <attr format="integer" name="dotCount"/>
+    <attr format="integer" name="duration"/>
+    <attr format="color" name="firstColor"/>
+    <attr format="reference" name="image"/>
+    <attr name="imageScaleType">
+        <enum name="fillXY" value="0"/>
+        <enum name="center" value="1"/>
+    </attr>
+    <attr format="color" name="secondColor"/>
+    <attr format="integer" name="speed"/>
+    <attr format="integer" name="splitSize"/>
+    <attr format="string" name="titleText"/>
+    <attr format="color" name="titleTextColor"/>
+    <attr format="dimension" name="titleTextSize"/>
+    <!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="gray">#88000000</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="AlphaImageView"><attr name="duration"/></declare-styleable>
+    <declare-styleable name="CustomImageView"><attr name="titleText"/><attr name="titleTextColor"/><attr name="titleTextSize"/><attr name="image"/><attr name="imageScaleType"/></declare-styleable>
+    <declare-styleable name="CustomProgressBar"><attr name="firstColor"/><attr name="secondColor"/><attr name="circleWidth"/><attr name="speed"/></declare-styleable>
+    <declare-styleable name="CustomTitleView"><attr name="titleText"/><attr name="titleTextColor"/><attr name="titleTextSize"/></declare-styleable>
+    <declare-styleable name="CustomVolumControlBar"><attr name="firstColor"/><attr name="secondColor"/><attr name="circleWidth"/><attr name="dotCount"/><attr name="splitSize"/><attr name="bg"/></declare-styleable>
+    <!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Demo</string>
+    <string name="circle">圆形</string>
+    <string name="color">画笔颜色</string>
+    <string name="color_blue">蓝色</string>
+    <string name="color_green">绿色</string>
+    <string name="color_red">红色</string>
+    <string name="color_white">白色</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="marquee1">我要跑马灯效果，我要跑马灯效果，我要跑马灯效果，我要跑马灯效果。</string>
+    <string name="marquee2">我也要跑马灯效果，我也要跑马灯效果，我也要跑马灯效果，我要跑马灯效果。</string>
+    <string name="oval">椭圆形</string>
+    <string name="pentagon">五角形</string>
+    <string name="rect">长方形</string>
+    <string name="round_rect">圆角矩形</string>
+    <string name="square">正方形</string>
+    <string name="triangle">三角形</string>
+    <string name="width">画笔宽度</string>
+    <string name="width_1">1</string>
+    <string name="width_3">3</string>
+    <string name="width_5">5</string>
+    <!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res/com.exp.ysy.demo"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ResAuto">
+
+    <com.example.customview01.view.CustomTitleView
+        android:id="@+id/customview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        custom:titleText="3712"
+        custom:titleTextColor="#ff0000"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        custom:titleTextSize="40sp" />
+
+</RelativeLayout><!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/layout/layout_customtitleview.xml -->
