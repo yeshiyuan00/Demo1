@@ -311,6 +311,38 @@ ADDED from AndroidManifest.xml:101:9
 		ADDED from AndroidManifest.xml:103:13
 	android:name
 		ADDED from AndroidManifest.xml:102:13
+activity#com.io.GestureTest
+ADDED from AndroidManifest.xml:105:9
+	android:name
+		ADDED from AndroidManifest.xml:105:19
+activity#com.io.GestureZoom
+ADDED from AndroidManifest.xml:106:9
+	android:name
+		ADDED from AndroidManifest.xml:106:19
+activity#com.io.GestureFlip
+ADDED from AndroidManifest.xml:107:9
+	android:name
+		ADDED from AndroidManifest.xml:107:19
+activity#com.io.AddGesture
+ADDED from AndroidManifest.xml:108:9
+	android:name
+		ADDED from AndroidManifest.xml:108:19
+activity#com.io.RecogniseGesture
+ADDED from AndroidManifest.xml:109:9
+	android:name
+		ADDED from AndroidManifest.xml:109:19
+activity#com.io.Speech
+ADDED from AndroidManifest.xml:110:9
+	android:name
+		ADDED from AndroidManifest.xml:110:19
+provider#com.provider.FirstProvider
+ADDED from AndroidManifest.xml:113:9
+	android:authorities
+		ADDED from AndroidManifest.xml:114:13
+	android:exported
+		ADDED from AndroidManifest.xml:116:13
+	android:name
+		ADDED from AndroidManifest.xml:115:13
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 	android:targetSdkVersion

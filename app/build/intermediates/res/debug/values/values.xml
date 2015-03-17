@@ -50,6 +50,7 @@
     <string name="color_green">绿色</string>
     <string name="color_red">红色</string>
     <string name="color_white">白色</string>
+    <string name="gesture_name">手势名称</string>
     <string name="hello_world">Hello world!</string>
     <string name="marquee1">我要跑马灯效果，我要跑马灯效果，我要跑马灯效果，我要跑马灯效果。</string>
     <string name="marquee2">我也要跑马灯效果，我也要跑马灯效果，我也要跑马灯效果，我要跑马灯效果。</string>

@@ -108,6 +108,18 @@
             android:name="com.io.ResultActivity"
             android:label="生词表"
             android:theme="@android:style/Theme.Dialog" />
+        <activity android:name="com.io.GestureTest" />
+        <activity android:name="com.io.GestureZoom" />
+        <activity android:name="com.io.GestureFlip" />
+        <activity android:name="com.io.AddGesture" />
+        <activity android:name="com.io.RecogniseGesture" />
+        <activity android:name="com.io.Speech" />
+
+        <!-- provider -->
+        <provider
+            android:name="com.provider.FirstProvider"
+            android:authorities="com.exp.ysy.demo.providers.firstprovider"
+            android:exported="true" />
     </application>
 
 </manifest>

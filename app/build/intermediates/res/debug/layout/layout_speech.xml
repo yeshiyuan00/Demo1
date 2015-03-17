@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Please Input..." />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bn_speech"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="音频朗读" />
+
+        <Button
+            android:id="@+id/bn_record"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="音频存储" />
+    </LinearLayout>
+</LinearLayout><!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/layout/layout_speech.xml -->

@@ -27,5 +27,8 @@
     <string name="width_3">3</string>
     <string name="width_5">5</string>
 
+    <!--IO-->
+    <string name="gesture_name">手势名称</string>
+
 
 </resources>

@@ -29,12 +29,18 @@ import com.images.ShowWave;
 import com.images.SurfaceViewTest;
 import com.images.TweenAnim;
 import com.images.WarpTest;
+import com.io.AddGesture;
 import com.io.DBTest;
 import com.io.Dict;
 import com.io.FileTest;
+import com.io.GestureFlip;
+import com.io.GestureTest;
+import com.io.GestureZoom;
+import com.io.RecogniseGesture;
 import com.io.SDCardFileExplorer;
 import com.io.SDCardTest;
 import com.io.SharedPreferenceTest;
+import com.io.Speech;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -68,6 +74,12 @@ public class IOActivity extends Activity implements AdapterView.OnItemClickListe
         list_intent.add(3, "SD卡资源管理器");
         list_intent.add(4, "SQLite插入测试");
         list_intent.add(5, "SQLiteOpenHelper测试");
+        list_intent.add(6, "手势检测");
+        list_intent.add(7, "手势缩放图片");
+        list_intent.add(8, "手势翻页");
+        list_intent.add(9, "增加手势");
+        list_intent.add(10, "识别手势");
+        list_intent.add(11, "自动朗读");
 
 
         ArrayAdapter adapter = new ArrayAdapter(this,
@@ -142,82 +154,41 @@ public class IOActivity extends Activity implements AdapterView.OnItemClickListe
                 break;
             case 6:
 
-                Intent intent6 = new Intent(IOActivity.this, Matrix_activity.class);
+                Intent intent6 = new Intent(IOActivity.this, GestureTest.class);
                 startActivity(intent6);
 
                 break;
             case 7:
 
-                Intent intent7 = new Intent(IOActivity.this, MoveBacK.class);
+                Intent intent7 = new Intent(IOActivity.this, GestureZoom.class);
                 startActivity(intent7);
 
                 break;
             case 8:
 
-                Intent intent8 = new Intent(IOActivity.this, WarpTest.class);
+                Intent intent8 = new Intent(IOActivity.this, GestureFlip.class);
                 startActivity(intent8);
 
                 break;
             case 9:
 
-                Intent intent9 = new Intent(IOActivity.this, ShaderView.class);
+                Intent intent9 = new Intent(IOActivity.this, AddGesture.class);
                 startActivity(intent9);
 
                 break;
             case 10:
 
-                Intent intent10 = new Intent(IOActivity.this, FatPo.class);
+                Intent intent10 = new Intent(IOActivity.this, RecogniseGesture.class);
                 startActivity(intent10);
 
                 break;
             case 11:
 
-                Intent intent11 = new Intent(IOActivity.this, Blast.class);
+                Intent intent11 = new Intent(IOActivity.this, Speech.class);
                 startActivity(intent11);
 
                 break;
-            case 12:
 
-                Intent intent12 = new Intent(IOActivity.this, TweenAnim.class);
-                startActivity(intent12);
-
-                break;
-            case 13:
-
-                Intent intent13 = new Intent(IOActivity.this, Butterfly.class);
-                startActivity(intent13);
-
-                break;
-            case 14:
-
-                Intent intent14 = new Intent(IOActivity.this, ListviewTween.class);
-                startActivity(intent14);
-
-                break;
-            case 15:
-
-                Intent intent15 = new Intent(IOActivity.this, com.images.AnimatorTest.class);
-                startActivity(intent15);
-
-                break;
-            case 16:
-
-                Intent intent16 = new Intent(IOActivity.this, BouncingBalls.class);
-                startActivity(intent16);
-
-                break;
-            case 17:
-
-                Intent intent17 = new Intent(IOActivity.this, SurfaceViewTest.class);
-                startActivity(intent17);
-
-                break;
-            case 18:
-
-                Intent intent18 = new Intent(IOActivity.this, ShowWave.class);
-                startActivity(intent18);
-
-                break;
         }
     }
 }
