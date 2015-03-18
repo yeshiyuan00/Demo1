@@ -14,6 +14,9 @@
     <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读写联系人的权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -120,6 +123,13 @@
             android:name="com.provider.FirstProvider"
             android:authorities="com.exp.ysy.demo.providers.firstprovider"
             android:exported="true" />
+        <provider
+            android:name="com.provider.DictProvider"
+            android:authorities="com.exp.ysy.demo.providers.dictprovider"
+            android:exported="true" />
+
+        <activity android:name="com.exp.ysy.demo.ProviderActivity" />
+        <activity android:name="com.provider.ContactProviderTest" />
     </application>
 
 </manifest>

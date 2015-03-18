@@ -59,6 +59,7 @@ public class MyActivity extends Activity implements AdapterView.OnItemClickListe
         list_demo.add(14, "Resource");
         list_demo.add(15, "Image");
         list_demo.add(16, "IO");
+        list_demo.add(17, "ContentProvider");
 
 
         ArrayAdapter adapter = new ArrayAdapter(this,
@@ -171,6 +172,11 @@ public class MyActivity extends Activity implements AdapterView.OnItemClickListe
 
                 Intent intent16 = new Intent(MyActivity.this, IOActivity.class);
                 startActivity(intent16);
+                break;
+            case 17:
+
+                Intent intent17 = new Intent(MyActivity.this, ProviderActivity.class);
+                startActivity(intent17);
                 break;
         }
     }
