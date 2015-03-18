@@ -25,6 +25,7 @@ import com.io.SharedPreferenceTest;
 import com.io.Speech;
 import com.provider.ContactProviderTest;
 import com.provider.MediaProviderTest;
+import com.provider.MonitorSms;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,6 +55,7 @@ public class ProviderActivity extends Activity implements AdapterView.OnItemClic
 
         list_intent.add(0, "联系人");
         list_intent.add(1, "多媒体");
+        list_intent.add(2, "短信监听");
 
         ArrayAdapter adapter = new ArrayAdapter(this,
                 android.R.layout.simple_list_item_1, list_intent);
@@ -100,7 +102,7 @@ public class ProviderActivity extends Activity implements AdapterView.OnItemClic
 
             case 2:
 
-                Intent intent2 = new Intent(ProviderActivity.this, SDCardTest.class);
+                Intent intent2 = new Intent(ProviderActivity.this, MonitorSms.class);
                 startActivity(intent2);
 
                 break;

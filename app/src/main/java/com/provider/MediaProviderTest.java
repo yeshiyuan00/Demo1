@@ -23,7 +23,7 @@ public class MediaProviderTest extends Activity {
         bn_view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                
+
             }
         });
     }
