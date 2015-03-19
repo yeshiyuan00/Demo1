@@ -106,61 +106,7 @@ public class ProviderActivity extends Activity implements AdapterView.OnItemClic
                 startActivity(intent2);
 
                 break;
-            case 3:
 
-                Intent intent3 = new Intent(ProviderActivity.this, SDCardFileExplorer.class);
-                startActivity(intent3);
-
-                break;
-            case 4:
-
-                Intent intent4 = new Intent(ProviderActivity.this, DBTest.class);
-                startActivity(intent4);
-
-                break;
-
-            case 5:
-
-                Intent intent5 = new Intent(ProviderActivity.this, Dict.class);
-                startActivity(intent5);
-
-                break;
-            case 6:
-
-                Intent intent6 = new Intent(ProviderActivity.this, GestureTest.class);
-                startActivity(intent6);
-
-                break;
-            case 7:
-
-                Intent intent7 = new Intent(ProviderActivity.this, GestureZoom.class);
-                startActivity(intent7);
-
-                break;
-            case 8:
-
-                Intent intent8 = new Intent(ProviderActivity.this, GestureFlip.class);
-                startActivity(intent8);
-
-                break;
-            case 9:
-
-                Intent intent9 = new Intent(ProviderActivity.this, AddGesture.class);
-                startActivity(intent9);
-
-                break;
-            case 10:
-
-                Intent intent10 = new Intent(ProviderActivity.this, RecogniseGesture.class);
-                startActivity(intent10);
-
-                break;
-            case 11:
-
-                Intent intent11 = new Intent(ProviderActivity.this, Speech.class);
-                startActivity(intent11);
-
-                break;
 
         }
     }

@@ -49,13 +49,13 @@ public class MonitorSms extends Activity {
                 //获取短信的发送地址
                 sb.append("address=").append(cursor.getString(cursor.getColumnIndex("address")));
                 //获取短信的标题
-                sb.append(";subject=").append(cursor.getString(cursor.getColumnIndex("subject")));
+                sb.append(";\nsubject=").append(cursor.getString(cursor.getColumnIndex("subject")));
                 //获取短信的内容
-                sb.append(";body=").append(cursor.getString(cursor.getColumnIndex("body")));
+                sb.append(";\nbody=").append(cursor.getString(cursor.getColumnIndex("body")));
                 //获取发送短信的时间
-                sb.append(";time=").append(cursor.getString(cursor.getColumnIndex("date")));
+                sb.append(";\ntime=").append(cursor.getString(cursor.getColumnIndex("date")));
 
-                textView.setText("Has Send SMS::" + sb.toString());
+                textView.setText("Has Send SMS::\n" + sb.toString());
             }
         }
     }

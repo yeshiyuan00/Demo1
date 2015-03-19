@@ -130,6 +130,38 @@
         <activity android:name="com.provider.MediaProviderTest" />
         <activity android:name="com.provider.MonitorSms" />
 
+        <!--Service-->
+        <activity android:name=".ServiceActivity" />
+        <service android:name="service.FirstService">
+            <intent-filter>
+                <!--为该service组件的intent-filter配置action-->
+                <action android:name="com.exp.ysy.demo.service.FIRST_SERVICE" />
+            </intent-filter>
+        </service>
+        <activity android:name="service.StartServiceTest" />
+        <service android:name="service.BindService">
+            <intent-filter>
+                <action android:name="com.exp.ysy.demo.service.BIND_SERVICE" />
+            </intent-filter>
+        </service>
+        <activity android:name="service.BindServiceTest" />
+
+        <service android:name="service.MyService" />
+        <service android:name="service.MyIntentService" />
+
+        <activity android:name="service.IntentServiceTest" />
+
+        <service android:name="service.AidlService">
+            <intent-filter>
+                <action android:name="com.exp.ysy.demo.aidl.action.AIDL_SERVICE" />
+            </intent-filter>
+        </service>
+        <service android:name="service.ComplexService">
+            <intent-filter>
+                <action android:name="com.exp.ysy.demo.aidl.action.COMPLEX_SERVICE" />
+            </intent-filter>
+        </service>
+
     </application>
 
 </manifest>
