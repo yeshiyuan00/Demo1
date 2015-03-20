@@ -16,6 +16,19 @@
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.WRITE_SMS" />
 
+    <!--获取电话信息-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!--控制通话的权限-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--发送短信权限-->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!--手机震动权限-->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -161,6 +174,14 @@
                 <action android:name="com.exp.ysy.demo.aidl.action.COMPLEX_SERVICE" />
             </intent-filter>
         </service>
+
+        <activity android:name="service.TelephoneStatus" />
+        <activity android:name="service.MonitorPhone" />
+        <activity android:name="service.BlockMain" />
+        <activity android:name="service.SendSms" />
+        <activity android:name="service.GroupSend" />
+        <activity android:name="service.AudioTest" />
+        <activity android:name="service.VibratorTest" />
 
     </application>
 
