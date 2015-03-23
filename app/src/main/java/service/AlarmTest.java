@@ -29,6 +29,7 @@ public class AlarmTest extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.layout_twobutton);
         setTime = (Button) findViewById(R.id.bn_start);
+        setTime.setText("设置闹钟");
 
         aManager = (AlarmManager) getSystemService(Service.ALARM_SERVICE);
 
@@ -37,7 +38,7 @@ public class AlarmTest extends Activity {
             public void onClick(View v) {
                 Calendar currentTime = Calendar.getInstance();
                 //创建一个TimePickDialog实例，并把它显示出了
-                new TimePickerDialog.OnTimeSetListener(AlarmTest.this, 0, new TimePickerDialog.OnTimeSetListener(){
+                new TimePickerDialog(AlarmTest.this, 0, new TimePickerDialog.OnTimeSetListener() {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
                         //指定启动AlarmActivity组件
@@ -55,7 +56,7 @@ public class AlarmTest extends Activity {
 
                         Toast.makeText(AlarmTest.this, "闹铃设置成功了", Toast.LENGTH_SHORT).show();
                     }
-                },currentTime.get(Calendar.HOUR_OF_DAY),currentTime.get(Calendar.MINUTE),false,)
+                }, currentTime.get(Calendar.HOUR_OF_DAY), currentTime.get(Calendar.MINUTE), false).show();
 
             }
         });

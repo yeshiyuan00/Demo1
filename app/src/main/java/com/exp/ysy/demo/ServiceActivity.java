@@ -1,6 +1,7 @@
 package com.exp.ysy.demo;
 
 import android.app.Activity;
+import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Vibrator;
@@ -19,13 +20,18 @@ import com.provider.MonitorSms;
 import java.util.ArrayList;
 import java.util.List;
 
+import service.AlarmChange_Wallpaper;
+import service.AlarmTest;
 import service.AudioTest;
 import service.BindServiceTest;
 import service.BlockMain;
+import service.BroadcastMain;
 import service.GroupSend;
 import service.IntentServiceTest;
 import service.MonitorPhone;
+import service.MusicBox;
 import service.SendSms;
+import service.SortedBroadcast;
 import service.StartServiceTest;
 import service.TelephoneStatus;
 import service.VibratorTest;
@@ -63,6 +69,11 @@ public class ServiceActivity extends Activity implements AdapterView.OnItemClick
         list_intent.add(7, "短信群发");
         list_intent.add(8, "音频管理");
         list_intent.add(9, "手机震动");
+        list_intent.add(10, "闹钟");
+        list_intent.add(11, "更换壁纸");
+        list_intent.add(12, "发送广播");
+        list_intent.add(13, "发送有序广播");
+        list_intent.add(14, "service音乐");
 
 
         ArrayAdapter adapter = new ArrayAdapter(this,
@@ -156,6 +167,36 @@ public class ServiceActivity extends Activity implements AdapterView.OnItemClick
 
                 Intent intent9 = new Intent(ServiceActivity.this, VibratorTest.class);
                 startActivity(intent9);
+
+                break;
+            case 10:
+
+                Intent intent10 = new Intent(ServiceActivity.this, AlarmTest.class);
+                startActivity(intent10);
+
+                break;
+            case 11:
+
+                Intent intent11 = new Intent(ServiceActivity.this, AlarmChange_Wallpaper.class);
+                startActivity(intent11);
+
+                break;
+            case 12:
+
+                Intent intent12 = new Intent(ServiceActivity.this, BroadcastMain.class);
+                startActivity(intent12);
+
+                break;
+            case 13:
+
+                Intent intent13 = new Intent(ServiceActivity.this, SortedBroadcast.class);
+                startActivity(intent13);
+
+                break;
+            case 14:
+
+                Intent intent14 = new Intent(ServiceActivity.this, MusicBox.class);
+                startActivity(intent14);
 
                 break;
         }
