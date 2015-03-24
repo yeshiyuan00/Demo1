@@ -61,6 +61,7 @@ public class MyActivity extends Activity implements AdapterView.OnItemClickListe
         list_demo.add(16, "IO");
         list_demo.add(17, "ContentProvider");
         list_demo.add(18, "Service");
+        list_demo.add(19, "网络应用");
 
 
         ArrayAdapter adapter = new ArrayAdapter(this,
@@ -183,6 +184,11 @@ public class MyActivity extends Activity implements AdapterView.OnItemClickListe
 
                 Intent intent18 = new Intent(MyActivity.this, ServiceActivity.class);
                 startActivity(intent18);
+                break;
+            case 19:
+
+                Intent intent19 = new Intent(MyActivity.this, URLActivity.class);
+                startActivity(intent19);
                 break;
         }
     }

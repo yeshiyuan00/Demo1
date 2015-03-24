@@ -66,6 +66,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <!-- From: file:/D:/AndroidStudioProjects/Demo/app/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="String_send">发送</string>
     <string name="action_settings">Settings</string>
     <string name="app_name">Demo</string>
     <string name="circle">圆形</string>
@@ -83,6 +84,11 @@
     <string name="rect">长方形</string>
     <string name="round_rect">圆角矩形</string>
     <string name="square">正方形</string>
+    <string name="title_activity_get_post_main">GetPostMain</string>
+    <string name="title_activity_multi_thread_client">MultiThreadClient</string>
+    <string name="title_activity_multi_thread_down">MultiThreadDown</string>
+    <string name="title_activity_simple_client">SimpleClient</string>
+    <string name="title_activity_urltest">URLTest</string>
     <string name="triangle">三角形</string>
     <string name="width">画笔宽度</string>
     <string name="width_1">1</string>

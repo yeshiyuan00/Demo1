@@ -29,6 +29,12 @@
 
     <!--IO-->
     <string name="gesture_name">手势名称</string>
+    <string name="title_activity_simple_client">SimpleClient</string>
+    <string name="title_activity_multi_thread_client">MultiThreadClient</string>
+    <string name="String_send">发送</string>
+    <string name="title_activity_urltest">URLTest</string>
+    <string name="title_activity_get_post_main">GetPostMain</string>
+    <string name="title_activity_multi_thread_down">MultiThreadDown</string>
 
 
 </resources>

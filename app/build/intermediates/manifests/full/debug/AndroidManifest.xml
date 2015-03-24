@@ -214,6 +214,29 @@
         <activity android:name="service.MusicBox" />
 
         <service android:name="service.MusicService" />
+
+        <!-- 网络应用 -->
+        <activity android:name="com.exp.ysy.demo.URLActivity" />
+        <activity
+            android:name="com.net.SimpleClient"
+            android:label="@string/title_activity_simple_client" >
+        </activity>
+        <activity
+            android:name="com.net.MultiThreadClient"
+            android:label="@string/title_activity_multi_thread_client" >
+        </activity>
+        <activity
+            android:name="com.net.URLTest"
+            android:label="@string/title_activity_urltest" >
+        </activity>
+        <activity
+            android:name="com.net.GetPostMain"
+            android:label="@string/title_activity_get_post_main" >
+        </activity>
+        <activity
+            android:name="com.net.MultiThreadDown"
+            android:label="@string/title_activity_multi_thread_down" >
+        </activity>
     </application>
 
 </manifest>

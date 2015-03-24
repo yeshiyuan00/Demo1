@@ -30,163 +30,163 @@ ADDED from AndroidManifest.xml:8:5
 	android:name
 		ADDED from AndroidManifest.xml:8:22
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from AndroidManifest.xml:9:5
+	android:name
+		ADDED from AndroidManifest.xml:9:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from AndroidManifest.xml:10:5
 	android:name
 		ADDED from AndroidManifest.xml:10:22
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from AndroidManifest.xml:11:5
-	android:name
-		ADDED from AndroidManifest.xml:11:22
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from AndroidManifest.xml:14:5
+ADDED from AndroidManifest.xml:13:5
 	android:name
-		ADDED from AndroidManifest.xml:14:22
+		ADDED from AndroidManifest.xml:13:22
 uses-permission#android.permission.READ_SMS
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.WRITE_SMS
 ADDED from AndroidManifest.xml:16:5
 	android:name
 		ADDED from AndroidManifest.xml:16:22
-uses-permission#android.permission.WRITE_SMS
-ADDED from AndroidManifest.xml:17:5
-	android:name
-		ADDED from AndroidManifest.xml:17:22
 uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from AndroidManifest.xml:20:5
 	android:name
 		ADDED from AndroidManifest.xml:20:22
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from AndroidManifest.xml:21:5
-	android:name
-		ADDED from AndroidManifest.xml:21:22
 uses-permission#android.permission.CALL_PHONE
-ADDED from AndroidManifest.xml:24:5
+ADDED from AndroidManifest.xml:23:5
 	android:name
-		ADDED from AndroidManifest.xml:24:22
+		ADDED from AndroidManifest.xml:23:22
 uses-permission#android.permission.SEND_SMS
-ADDED from AndroidManifest.xml:26:5
+ADDED from AndroidManifest.xml:25:5
 	android:name
-		ADDED from AndroidManifest.xml:26:22
+		ADDED from AndroidManifest.xml:25:22
 uses-permission#android.permission.VIBRATE
-ADDED from AndroidManifest.xml:29:5
+ADDED from AndroidManifest.xml:28:5
 	android:name
-		ADDED from AndroidManifest.xml:29:22
+		ADDED from AndroidManifest.xml:28:22
 uses-permission#android.permission.SET_WALLPAPER
-ADDED from AndroidManifest.xml:31:5
+ADDED from AndroidManifest.xml:30:5
 	android:name
-		ADDED from AndroidManifest.xml:31:22
+		ADDED from AndroidManifest.xml:30:22
 application
-ADDED from AndroidManifest.xml:34:5
+ADDED from AndroidManifest.xml:32:5
 	android:label
-		ADDED from AndroidManifest.xml:37:9
-	android:allowBackup
 		ADDED from AndroidManifest.xml:35:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:33:9
 	android:icon
-		ADDED from AndroidManifest.xml:36:9
+		ADDED from AndroidManifest.xml:34:9
 	android:theme
-		ADDED from AndroidManifest.xml:38:9
+		ADDED from AndroidManifest.xml:36:9
 activity#com.exp.ysy.demo.MyActivity
-ADDED from AndroidManifest.xml:39:9
+ADDED from AndroidManifest.xml:37:9
 	android:label
-		ADDED from AndroidManifest.xml:41:13
+		ADDED from AndroidManifest.xml:39:13
 	android:name
-		ADDED from AndroidManifest.xml:40:13
+		ADDED from AndroidManifest.xml:38:13
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:42:13
+ADDED from AndroidManifest.xml:40:13
 action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:41:17
+	android:name
+		ADDED from AndroidManifest.xml:41:25
+category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:43:17
 	android:name
-		ADDED from AndroidManifest.xml:43:25
-category#android.intent.category.LAUNCHER
-ADDED from AndroidManifest.xml:45:17
-	android:name
-		ADDED from AndroidManifest.xml:45:27
+		ADDED from AndroidManifest.xml:43:27
 activity#com.exp.ysy.demo.AutoCompleteText_demo
-ADDED from AndroidManifest.xml:48:9
+ADDED from AndroidManifest.xml:46:9
 	android:label
-		ADDED from AndroidManifest.xml:50:13
+		ADDED from AndroidManifest.xml:48:13
 	android:name
-		ADDED from AndroidManifest.xml:49:13
+		ADDED from AndroidManifest.xml:47:13
 activity#com.exp.ysy.demo.Bluetooth_demo
-ADDED from AndroidManifest.xml:51:9
+ADDED from AndroidManifest.xml:49:9
 	android:label
-		ADDED from AndroidManifest.xml:53:13
+		ADDED from AndroidManifest.xml:51:13
 	android:name
-		ADDED from AndroidManifest.xml:52:13
+		ADDED from AndroidManifest.xml:50:13
 activity#com.exp.ysy.demo.MarqueeTextview_demo
-ADDED from AndroidManifest.xml:54:9
+ADDED from AndroidManifest.xml:52:9
 	android:label
-		ADDED from AndroidManifest.xml:56:13
+		ADDED from AndroidManifest.xml:54:13
 	android:name
-		ADDED from AndroidManifest.xml:55:13
+		ADDED from AndroidManifest.xml:53:13
 activity#subclass.MyTab
-ADDED from AndroidManifest.xml:57:9
+ADDED from AndroidManifest.xml:55:9
 	android:label
-		ADDED from AndroidManifest.xml:59:13
+		ADDED from AndroidManifest.xml:57:13
 	android:name
-		ADDED from AndroidManifest.xml:58:13
+		ADDED from AndroidManifest.xml:56:13
 activity#subclass.WebView_demo
-ADDED from AndroidManifest.xml:60:9
+ADDED from AndroidManifest.xml:58:9
 	android:label
-		ADDED from AndroidManifest.xml:62:13
+		ADDED from AndroidManifest.xml:60:13
 	android:name
-		ADDED from AndroidManifest.xml:61:13
+		ADDED from AndroidManifest.xml:59:13
 activity#subclass.CustomSeekbar
+ADDED from AndroidManifest.xml:61:9
+	android:name
+		ADDED from AndroidManifest.xml:61:19
+activity#subclass.CustomView
+ADDED from AndroidManifest.xml:62:9
+	android:name
+		ADDED from AndroidManifest.xml:62:19
+activity#subclass.CustomImageView_Activity
 ADDED from AndroidManifest.xml:63:9
 	android:name
 		ADDED from AndroidManifest.xml:63:19
-activity#subclass.CustomView
+activity#subclass.CustomProgressbar_Activity
 ADDED from AndroidManifest.xml:64:9
 	android:name
 		ADDED from AndroidManifest.xml:64:19
-activity#subclass.CustomImageView_Activity
+activity#subclass.CustomVolumControlBar_Activity
 ADDED from AndroidManifest.xml:65:9
 	android:name
 		ADDED from AndroidManifest.xml:65:19
-activity#subclass.CustomProgressbar_Activity
+activity#subclass.Fragment_Activity
 ADDED from AndroidManifest.xml:66:9
 	android:name
 		ADDED from AndroidManifest.xml:66:19
-activity#subclass.CustomVolumControlBar_Activity
+activity#subclass.FragmentActivity2
 ADDED from AndroidManifest.xml:67:9
 	android:name
 		ADDED from AndroidManifest.xml:67:19
-activity#subclass.Fragment_Activity
+activity#subclass.Socket_Activity
 ADDED from AndroidManifest.xml:68:9
 	android:name
 		ADDED from AndroidManifest.xml:68:19
-activity#subclass.FragmentActivity2
+activity#subclass.URLTest_Activity
 ADDED from AndroidManifest.xml:69:9
 	android:name
 		ADDED from AndroidManifest.xml:69:19
-activity#subclass.Socket_Activity
+activity#com.exp.ysy.demo.IntentActivity
 ADDED from AndroidManifest.xml:70:9
 	android:name
 		ADDED from AndroidManifest.xml:70:19
-activity#subclass.URLTest_Activity
+activity#com.in.ComponentAttr
 ADDED from AndroidManifest.xml:71:9
 	android:name
 		ADDED from AndroidManifest.xml:71:19
-activity#com.exp.ysy.demo.IntentActivity
+activity#com.in.ActionAttr
 ADDED from AndroidManifest.xml:72:9
 	android:name
 		ADDED from AndroidManifest.xml:72:19
-activity#com.in.ComponentAttr
-ADDED from AndroidManifest.xml:73:9
-	android:name
-		ADDED from AndroidManifest.xml:73:19
-activity#com.in.ActionAttr
-ADDED from AndroidManifest.xml:74:9
-	android:name
-		ADDED from AndroidManifest.xml:74:19
 intent-filter#android.intent.category.DEFAULT+com.ysy.intent.action.CRAZYIT_ACTION+helloworld
-ADDED from AndroidManifest.xml:75:13
+ADDED from AndroidManifest.xml:73:13
 action#com.ysy.intent.action.CRAZYIT_ACTION
-ADDED from AndroidManifest.xml:77:17
+ADDED from AndroidManifest.xml:76:17
 	android:name
-		ADDED from AndroidManifest.xml:77:25
+		ADDED from AndroidManifest.xml:76:25
 action#helloworld
-ADDED from AndroidManifest.xml:79:17
+ADDED from AndroidManifest.xml:78:17
 	android:name
-		ADDED from AndroidManifest.xml:79:25
+		ADDED from AndroidManifest.xml:78:25
 category#android.intent.category.DEFAULT
 ADDED from AndroidManifest.xml:80:17
 	android:name
@@ -196,217 +196,217 @@ ADDED from AndroidManifest.xml:83:9
 	android:name
 		ADDED from AndroidManifest.xml:83:19
 activity#com.in.ActionData
+ADDED from AndroidManifest.xml:84:9
+	android:name
+		ADDED from AndroidManifest.xml:84:19
+activity#com.exp.ysy.demo.ResourceActivity
 ADDED from AndroidManifest.xml:85:9
 	android:name
 		ADDED from AndroidManifest.xml:85:19
-activity#com.exp.ysy.demo.ResourceActivity
+activity#com.resources.EditSelect
 ADDED from AndroidManifest.xml:86:9
 	android:name
 		ADDED from AndroidManifest.xml:86:19
-activity#com.resources.EditSelect
+activity#com.resources.TestForFir
 ADDED from AndroidManifest.xml:87:9
 	android:name
 		ADDED from AndroidManifest.xml:87:19
-activity#com.resources.TestForFir
+activity#com.resources.ClipDrawableTest
 ADDED from AndroidManifest.xml:88:9
 	android:name
 		ADDED from AndroidManifest.xml:88:19
-activity#com.resources.ClipDrawableTest
+activity#com.resources.AnimTest
 ADDED from AndroidManifest.xml:89:9
 	android:name
 		ADDED from AndroidManifest.xml:89:19
-activity#com.resources.AnimTest
+activity#com.resources.AnimatorTest
 ADDED from AndroidManifest.xml:90:9
 	android:name
 		ADDED from AndroidManifest.xml:90:19
-activity#com.resources.AnimatorTest
+activity#com.resources.XmlResTest
 ADDED from AndroidManifest.xml:91:9
 	android:name
 		ADDED from AndroidManifest.xml:91:19
-activity#com.resources.XmlResTest
+activity#com.resources.AlphaImageView_Activity
 ADDED from AndroidManifest.xml:92:9
 	android:name
 		ADDED from AndroidManifest.xml:92:19
-activity#com.resources.AlphaImageView_Activity
+activity#com.exp.ysy.demo.ImageActivity
 ADDED from AndroidManifest.xml:93:9
 	android:name
 		ADDED from AndroidManifest.xml:93:19
-activity#com.exp.ysy.demo.ImageActivity
+activity#com.images.BitmapTest
 ADDED from AndroidManifest.xml:94:9
 	android:name
 		ADDED from AndroidManifest.xml:94:19
-activity#com.images.BitmapTest
+activity#com.images.MyView_Activity
 ADDED from AndroidManifest.xml:95:9
 	android:name
 		ADDED from AndroidManifest.xml:95:19
-activity#com.images.MyView_Activity
+activity#com.images.PathTest
 ADDED from AndroidManifest.xml:96:9
 	android:name
 		ADDED from AndroidManifest.xml:96:19
-activity#com.images.PathTest
+activity#com.images.PathText
 ADDED from AndroidManifest.xml:97:9
 	android:name
 		ADDED from AndroidManifest.xml:97:19
-activity#com.images.PathText
+activity#com.images.HandDraw
 ADDED from AndroidManifest.xml:98:9
 	android:name
 		ADDED from AndroidManifest.xml:98:19
-activity#com.images.HandDraw
+activity#com.images.PinBall
 ADDED from AndroidManifest.xml:99:9
 	android:name
 		ADDED from AndroidManifest.xml:99:19
-activity#com.images.PinBall
+activity#com.images.Matrix_activity
 ADDED from AndroidManifest.xml:100:9
 	android:name
 		ADDED from AndroidManifest.xml:100:19
-activity#com.images.Matrix_activity
+activity#com.images.MoveBacK
 ADDED from AndroidManifest.xml:101:9
 	android:name
 		ADDED from AndroidManifest.xml:101:19
-activity#com.images.MoveBacK
+activity#com.images.WarpTest
 ADDED from AndroidManifest.xml:102:9
 	android:name
 		ADDED from AndroidManifest.xml:102:19
-activity#com.images.WarpTest
+activity#com.images.ShaderView
 ADDED from AndroidManifest.xml:103:9
 	android:name
 		ADDED from AndroidManifest.xml:103:19
-activity#com.images.ShaderView
+activity#com.images.FatPo
 ADDED from AndroidManifest.xml:104:9
 	android:name
 		ADDED from AndroidManifest.xml:104:19
-activity#com.images.FatPo
+activity#com.images.Blast
 ADDED from AndroidManifest.xml:105:9
 	android:name
 		ADDED from AndroidManifest.xml:105:19
-activity#com.images.Blast
+activity#com.images.TweenAnim
 ADDED from AndroidManifest.xml:106:9
 	android:name
 		ADDED from AndroidManifest.xml:106:19
-activity#com.images.TweenAnim
+activity#com.images.Butterfly
 ADDED from AndroidManifest.xml:107:9
 	android:name
 		ADDED from AndroidManifest.xml:107:19
-activity#com.images.Butterfly
+activity#com.images.ListviewTween
 ADDED from AndroidManifest.xml:108:9
 	android:name
 		ADDED from AndroidManifest.xml:108:19
-activity#com.images.ListviewTween
+activity#com.images.AnimatorTest
 ADDED from AndroidManifest.xml:109:9
 	android:name
 		ADDED from AndroidManifest.xml:109:19
-activity#com.images.AnimatorTest
+activity#com.images.BouncingBalls
 ADDED from AndroidManifest.xml:110:9
 	android:name
 		ADDED from AndroidManifest.xml:110:19
-activity#com.images.BouncingBalls
+activity#com.images.SurfaceViewTest
 ADDED from AndroidManifest.xml:111:9
 	android:name
 		ADDED from AndroidManifest.xml:111:19
-activity#com.images.SurfaceViewTest
+activity#com.images.ShowWave
 ADDED from AndroidManifest.xml:112:9
 	android:name
 		ADDED from AndroidManifest.xml:112:19
-activity#com.images.ShowWave
-ADDED from AndroidManifest.xml:113:9
-	android:name
-		ADDED from AndroidManifest.xml:113:19
 activity#com.exp.ysy.demo.IOActivity
+ADDED from AndroidManifest.xml:114:9
+	android:name
+		ADDED from AndroidManifest.xml:114:19
+activity#com.io.SharedPreferenceTest
 ADDED from AndroidManifest.xml:115:9
 	android:name
 		ADDED from AndroidManifest.xml:115:19
-activity#com.io.SharedPreferenceTest
+activity#com.io.FileTest
 ADDED from AndroidManifest.xml:116:9
 	android:name
 		ADDED from AndroidManifest.xml:116:19
-activity#com.io.FileTest
+activity#com.io.SDCardTest
 ADDED from AndroidManifest.xml:117:9
 	android:name
 		ADDED from AndroidManifest.xml:117:19
-activity#com.io.SDCardTest
+activity#com.io.SDCardFileExplorer
 ADDED from AndroidManifest.xml:118:9
 	android:name
 		ADDED from AndroidManifest.xml:118:19
-activity#com.io.SDCardFileExplorer
+activity#com.io.DBTest
 ADDED from AndroidManifest.xml:119:9
 	android:name
 		ADDED from AndroidManifest.xml:119:19
-activity#com.io.DBTest
+activity#com.io.Dict
 ADDED from AndroidManifest.xml:120:9
 	android:name
 		ADDED from AndroidManifest.xml:120:19
-activity#com.io.Dict
-ADDED from AndroidManifest.xml:121:9
-	android:name
-		ADDED from AndroidManifest.xml:121:19
 activity#com.io.ResultActivity
-ADDED from AndroidManifest.xml:122:9
+ADDED from AndroidManifest.xml:121:9
 	android:label
-		ADDED from AndroidManifest.xml:125:13
+		ADDED from AndroidManifest.xml:123:13
 	android:theme
 		ADDED from AndroidManifest.xml:124:13
 	android:name
-		ADDED from AndroidManifest.xml:123:13
+		ADDED from AndroidManifest.xml:122:13
 activity#com.io.GestureTest
+ADDED from AndroidManifest.xml:125:9
+	android:name
+		ADDED from AndroidManifest.xml:125:19
+activity#com.io.GestureZoom
 ADDED from AndroidManifest.xml:126:9
 	android:name
 		ADDED from AndroidManifest.xml:126:19
-activity#com.io.GestureZoom
+activity#com.io.GestureFlip
 ADDED from AndroidManifest.xml:127:9
 	android:name
 		ADDED from AndroidManifest.xml:127:19
-activity#com.io.GestureFlip
+activity#com.io.AddGesture
 ADDED from AndroidManifest.xml:128:9
 	android:name
 		ADDED from AndroidManifest.xml:128:19
-activity#com.io.AddGesture
+activity#com.io.RecogniseGesture
 ADDED from AndroidManifest.xml:129:9
 	android:name
 		ADDED from AndroidManifest.xml:129:19
-activity#com.io.RecogniseGesture
+activity#com.io.Speech
 ADDED from AndroidManifest.xml:130:9
 	android:name
 		ADDED from AndroidManifest.xml:130:19
-activity#com.io.Speech
-ADDED from AndroidManifest.xml:131:9
-	android:name
-		ADDED from AndroidManifest.xml:131:19
 provider#com.provider.FirstProvider
-ADDED from AndroidManifest.xml:134:9
+ADDED from AndroidManifest.xml:133:9
 	android:authorities
 		ADDED from AndroidManifest.xml:135:13
 	android:exported
-		ADDED from AndroidManifest.xml:137:13
-	android:name
 		ADDED from AndroidManifest.xml:136:13
+	android:name
+		ADDED from AndroidManifest.xml:134:13
 provider#com.provider.DictProvider
-ADDED from AndroidManifest.xml:138:9
+ADDED from AndroidManifest.xml:137:9
 	android:authorities
 		ADDED from AndroidManifest.xml:139:13
 	android:exported
-		ADDED from AndroidManifest.xml:141:13
-	android:name
 		ADDED from AndroidManifest.xml:140:13
+	android:name
+		ADDED from AndroidManifest.xml:138:13
 activity#com.exp.ysy.demo.ProviderActivity
+ADDED from AndroidManifest.xml:142:9
+	android:name
+		ADDED from AndroidManifest.xml:142:19
+activity#com.provider.ContactProviderTest
 ADDED from AndroidManifest.xml:143:9
 	android:name
 		ADDED from AndroidManifest.xml:143:19
-activity#com.provider.ContactProviderTest
+activity#com.provider.MediaProviderTest
 ADDED from AndroidManifest.xml:144:9
 	android:name
 		ADDED from AndroidManifest.xml:144:19
-activity#com.provider.MediaProviderTest
+activity#com.provider.MonitorSms
 ADDED from AndroidManifest.xml:145:9
 	android:name
 		ADDED from AndroidManifest.xml:145:19
-activity#com.provider.MonitorSms
-ADDED from AndroidManifest.xml:146:9
-	android:name
-		ADDED from AndroidManifest.xml:146:19
 activity#com.exp.ysy.demo.ServiceActivity
-ADDED from AndroidManifest.xml:149:9
+ADDED from AndroidManifest.xml:148:9
 	android:name
-		ADDED from AndroidManifest.xml:149:19
+		ADDED from AndroidManifest.xml:148:19
 service#service.FirstService
 ADDED from AndroidManifest.xml:150:9
 	android:name
@@ -414,131 +414,165 @@ ADDED from AndroidManifest.xml:150:9
 intent-filter#com.exp.ysy.demo.service.FIRST_SERVICE
 ADDED from AndroidManifest.xml:151:13
 action#com.exp.ysy.demo.service.FIRST_SERVICE
-ADDED from AndroidManifest.xml:153:17
+ADDED from AndroidManifest.xml:154:17
 	android:name
-		ADDED from AndroidManifest.xml:153:25
+		ADDED from AndroidManifest.xml:154:25
 activity#service.StartServiceTest
-ADDED from AndroidManifest.xml:156:9
+ADDED from AndroidManifest.xml:158:9
 	android:name
-		ADDED from AndroidManifest.xml:156:19
+		ADDED from AndroidManifest.xml:158:19
 service#service.BindService
-ADDED from AndroidManifest.xml:157:9
+ADDED from AndroidManifest.xml:160:9
 	android:name
-		ADDED from AndroidManifest.xml:157:18
+		ADDED from AndroidManifest.xml:160:18
 intent-filter#com.exp.ysy.demo.service.BIND_SERVICE
-ADDED from AndroidManifest.xml:158:13
+ADDED from AndroidManifest.xml:161:13
 action#com.exp.ysy.demo.service.BIND_SERVICE
-ADDED from AndroidManifest.xml:159:17
+ADDED from AndroidManifest.xml:162:17
 	android:name
-		ADDED from AndroidManifest.xml:159:25
+		ADDED from AndroidManifest.xml:162:25
 activity#service.BindServiceTest
-ADDED from AndroidManifest.xml:162:9
+ADDED from AndroidManifest.xml:166:9
 	android:name
-		ADDED from AndroidManifest.xml:162:19
+		ADDED from AndroidManifest.xml:166:19
 service#service.MyService
-ADDED from AndroidManifest.xml:164:9
+ADDED from AndroidManifest.xml:168:9
 	android:name
-		ADDED from AndroidManifest.xml:164:18
+		ADDED from AndroidManifest.xml:168:18
 service#service.MyIntentService
-ADDED from AndroidManifest.xml:165:9
-	android:name
-		ADDED from AndroidManifest.xml:165:18
-activity#service.IntentServiceTest
-ADDED from AndroidManifest.xml:167:9
-	android:name
-		ADDED from AndroidManifest.xml:167:19
-service#service.AidlService
 ADDED from AndroidManifest.xml:169:9
 	android:name
 		ADDED from AndroidManifest.xml:169:18
+activity#service.IntentServiceTest
+ADDED from AndroidManifest.xml:171:9
+	android:name
+		ADDED from AndroidManifest.xml:171:19
+service#service.AidlService
+ADDED from AndroidManifest.xml:173:9
+	android:name
+		ADDED from AndroidManifest.xml:173:18
 intent-filter#com.exp.ysy.demo.aidl.action.AIDL_SERVICE
-ADDED from AndroidManifest.xml:170:13
+ADDED from AndroidManifest.xml:174:13
 action#com.exp.ysy.demo.aidl.action.AIDL_SERVICE
-ADDED from AndroidManifest.xml:171:17
+ADDED from AndroidManifest.xml:175:17
 	android:name
-		ADDED from AndroidManifest.xml:171:25
+		ADDED from AndroidManifest.xml:175:25
 service#service.ComplexService
-ADDED from AndroidManifest.xml:174:9
+ADDED from AndroidManifest.xml:178:9
 	android:name
-		ADDED from AndroidManifest.xml:174:18
+		ADDED from AndroidManifest.xml:178:18
 intent-filter#com.exp.ysy.demo.aidl.action.COMPLEX_SERVICE
-ADDED from AndroidManifest.xml:175:13
+ADDED from AndroidManifest.xml:179:13
 action#com.exp.ysy.demo.aidl.action.COMPLEX_SERVICE
-ADDED from AndroidManifest.xml:176:17
+ADDED from AndroidManifest.xml:180:17
 	android:name
-		ADDED from AndroidManifest.xml:176:25
+		ADDED from AndroidManifest.xml:180:25
 activity#service.TelephoneStatus
-ADDED from AndroidManifest.xml:180:9
-	android:name
-		ADDED from AndroidManifest.xml:180:19
-activity#service.MonitorPhone
-ADDED from AndroidManifest.xml:181:9
-	android:name
-		ADDED from AndroidManifest.xml:181:19
-activity#service.BlockMain
-ADDED from AndroidManifest.xml:182:9
-	android:name
-		ADDED from AndroidManifest.xml:182:19
-activity#service.SendSms
-ADDED from AndroidManifest.xml:183:9
-	android:name
-		ADDED from AndroidManifest.xml:183:19
-activity#service.GroupSend
 ADDED from AndroidManifest.xml:184:9
 	android:name
 		ADDED from AndroidManifest.xml:184:19
-activity#service.AudioTest
+activity#service.MonitorPhone
 ADDED from AndroidManifest.xml:185:9
 	android:name
 		ADDED from AndroidManifest.xml:185:19
-activity#service.VibratorTest
+activity#service.BlockMain
 ADDED from AndroidManifest.xml:186:9
 	android:name
 		ADDED from AndroidManifest.xml:186:19
-activity#service.AlarmTest
+activity#service.SendSms
 ADDED from AndroidManifest.xml:187:9
 	android:name
 		ADDED from AndroidManifest.xml:187:19
-activity#service.AlarmActivity
+activity#service.GroupSend
 ADDED from AndroidManifest.xml:188:9
 	android:name
 		ADDED from AndroidManifest.xml:188:19
-activity#service.AlarmChange_Wallpaper
+activity#service.AudioTest
 ADDED from AndroidManifest.xml:189:9
 	android:name
 		ADDED from AndroidManifest.xml:189:19
-activity#service.BroadcastMain
+activity#service.VibratorTest
+ADDED from AndroidManifest.xml:190:9
+	android:name
+		ADDED from AndroidManifest.xml:190:19
+activity#service.AlarmTest
 ADDED from AndroidManifest.xml:191:9
 	android:name
 		ADDED from AndroidManifest.xml:191:19
-receiver#service.MyReciver
+activity#service.AlarmActivity
+ADDED from AndroidManifest.xml:192:9
+	android:name
+		ADDED from AndroidManifest.xml:192:19
+activity#service.AlarmChange_Wallpaper
 ADDED from AndroidManifest.xml:193:9
 	android:name
 		ADDED from AndroidManifest.xml:193:19
+activity#service.BroadcastMain
+ADDED from AndroidManifest.xml:194:9
+	android:name
+		ADDED from AndroidManifest.xml:194:19
+receiver#service.MyReciver
+ADDED from AndroidManifest.xml:196:9
+	android:name
+		ADDED from AndroidManifest.xml:196:19
 intent-filter#com.exp.ysy.demo.action.YSY_BROADCAST
-ADDED from AndroidManifest.xml:194:13
+ADDED from AndroidManifest.xml:197:13
 	android:priority
-		ADDED from AndroidManifest.xml:194:28
+		ADDED from AndroidManifest.xml:197:28
 action#com.exp.ysy.demo.action.YSY_BROADCAST
-ADDED from AndroidManifest.xml:195:17
+ADDED from AndroidManifest.xml:198:17
 	android:name
-		ADDED from AndroidManifest.xml:195:25
+		ADDED from AndroidManifest.xml:198:25
 receiver#service.MyReciver2
-ADDED from AndroidManifest.xml:199:9
+ADDED from AndroidManifest.xml:201:9
 	android:name
-		ADDED from AndroidManifest.xml:199:19
+		ADDED from AndroidManifest.xml:201:19
 activity#service.SortedBroadcast
-ADDED from AndroidManifest.xml:205:9
+ADDED from AndroidManifest.xml:207:9
 	android:name
-		ADDED from AndroidManifest.xml:205:19
+		ADDED from AndroidManifest.xml:207:19
 activity#service.MusicBox
-ADDED from AndroidManifest.xml:206:9
-	android:name
-		ADDED from AndroidManifest.xml:206:19
-service#service.MusicService
 ADDED from AndroidManifest.xml:208:9
 	android:name
-		ADDED from AndroidManifest.xml:208:18
+		ADDED from AndroidManifest.xml:208:19
+service#service.MusicService
+ADDED from AndroidManifest.xml:210:9
+	android:name
+		ADDED from AndroidManifest.xml:210:18
+activity#com.exp.ysy.demo.URLActivity
+ADDED from AndroidManifest.xml:213:9
+	android:name
+		ADDED from AndroidManifest.xml:213:19
+activity#com.net.SimpleClient
+ADDED from AndroidManifest.xml:214:9
+	android:label
+		ADDED from AndroidManifest.xml:216:13
+	android:name
+		ADDED from AndroidManifest.xml:215:13
+activity#com.net.MultiThreadClient
+ADDED from AndroidManifest.xml:218:9
+	android:label
+		ADDED from AndroidManifest.xml:220:13
+	android:name
+		ADDED from AndroidManifest.xml:219:13
+activity#com.net.URLTest
+ADDED from AndroidManifest.xml:222:9
+	android:label
+		ADDED from AndroidManifest.xml:224:13
+	android:name
+		ADDED from AndroidManifest.xml:223:13
+activity#com.net.GetPostMain
+ADDED from AndroidManifest.xml:226:9
+	android:label
+		ADDED from AndroidManifest.xml:228:13
+	android:name
+		ADDED from AndroidManifest.xml:227:13
+activity#com.net.MultiThreadDown
+ADDED from AndroidManifest.xml:230:9
+	android:label
+		ADDED from AndroidManifest.xml:232:13
+	android:name
+		ADDED from AndroidManifest.xml:231:13
 uses-sdk
 INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
 	android:targetSdkVersion
