@@ -85,10 +85,14 @@
     <string name="round_rect">圆角矩形</string>
     <string name="square">正方形</string>
     <string name="title_activity_get_post_main">GetPostMain</string>
+    <string name="title_activity_http_client_tets">HttpClientTets</string>
+    <string name="title_activity_mini_browser">MiniBrowser</string>
     <string name="title_activity_multi_thread_client">MultiThreadClient</string>
     <string name="title_activity_multi_thread_down">MultiThreadDown</string>
+    <string name="title_activity_my_weather">MyWeather</string>
     <string name="title_activity_simple_client">SimpleClient</string>
     <string name="title_activity_urltest">URLTest</string>
+    <string name="title_activity_view_html">ViewHtml</string>
     <string name="triangle">三角形</string>
     <string name="width">画笔宽度</string>
     <string name="width_1">1</string>

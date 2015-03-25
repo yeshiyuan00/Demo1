@@ -62,6 +62,7 @@ public class MyActivity extends Activity implements AdapterView.OnItemClickListe
         list_demo.add(17, "ContentProvider");
         list_demo.add(18, "Service");
         list_demo.add(19, "网络应用");
+        list_demo.add(20, "手机桌面管理");
 
 
         ArrayAdapter adapter = new ArrayAdapter(this,
@@ -189,7 +190,10 @@ public class MyActivity extends Activity implements AdapterView.OnItemClickListe
 
                 Intent intent19 = new Intent(MyActivity.this, URLActivity.class);
                 startActivity(intent19);
-                break;
+            case 20:
+
+                Intent intent20 = new Intent(MyActivity.this, DesktopActivity.class);
+                startActivity(intent20);
         }
     }
 }

@@ -12,10 +12,15 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.net.GetPostMain;
+import com.net.HttpClientTets;
+import com.net.JsCallAndroid;
+import com.net.MiniBrowser;
 import com.net.MultiThreadClient;
 import com.net.MultiThreadDown;
+import com.net.MyWeather;
 import com.net.SimpleClient;
 import com.net.URLTest;
+import com.net.ViewHtml;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -64,6 +69,11 @@ public class URLActivity extends Activity implements AdapterView.OnItemClickList
         list_intent.add(2, "URL访问网络资源");
         list_intent.add(3, "URLConnectionTest");
         list_intent.add(4, "多线程下载");
+        list_intent.add(5, "使用HttpCilent");
+        list_intent.add(6, "迷你浏览器(WebView)");
+        list_intent.add(7, "WebView加载HTML代码");
+        list_intent.add(8, "WebView中JavaScript脚本调用Android");
+        list_intent.add(9, "我的天气");
 
 
         ArrayAdapter adapter = new ArrayAdapter(this,
@@ -129,33 +139,33 @@ public class URLActivity extends Activity implements AdapterView.OnItemClickList
                 break;
             case 5:
 
-                Intent intent5 = new Intent(URLActivity.this, BlockMain.class);
+                Intent intent5 = new Intent(URLActivity.this, HttpClientTets.class);
                 startActivity(intent5);
 
                 break;
 
             case 6:
 
-                Intent intent6 = new Intent(URLActivity.this, SendSms.class);
+                Intent intent6 = new Intent(URLActivity.this, MiniBrowser.class);
                 startActivity(intent6);
 
                 break;
             case 7:
 
-                Intent intent7 = new Intent(URLActivity.this, GroupSend.class);
+                Intent intent7 = new Intent(URLActivity.this, ViewHtml.class);
                 startActivity(intent7);
 
                 break;
 
             case 8:
 
-                Intent intent8 = new Intent(URLActivity.this, AudioTest.class);
+                Intent intent8 = new Intent(URLActivity.this, JsCallAndroid.class);
                 startActivity(intent8);
 
                 break;
             case 9:
 
-                Intent intent9 = new Intent(URLActivity.this, VibratorTest.class);
+                Intent intent9 = new Intent(URLActivity.this, MyWeather.class);
                 startActivity(intent9);
 
                 break;

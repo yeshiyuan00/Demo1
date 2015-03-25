@@ -35,6 +35,10 @@
     <string name="title_activity_urltest">URLTest</string>
     <string name="title_activity_get_post_main">GetPostMain</string>
     <string name="title_activity_multi_thread_down">MultiThreadDown</string>
+    <string name="title_activity_http_client_tets">HttpClientTets</string>
+    <string name="title_activity_mini_browser">MiniBrowser</string>
+    <string name="title_activity_view_html">ViewHtml</string>
+    <string name="title_activity_my_weather">MyWeather</string>
 
 
 </resources>

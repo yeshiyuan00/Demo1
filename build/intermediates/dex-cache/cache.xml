@@ -15,5 +15,12 @@
         sha1="138b65a6f2bf564a0cd77af8a056dccfa161f730">
         <dex dex="D:\AndroidStudioProjects\Demo\app\build\intermediates\pre-dexed\debug\android-support-v7-appcompat-a30aa38f35f11462af495096e4fe5ace786fbaab.jar" />
     </item>
+    <item
+        jar="D:\AndroidStudioProjects\Demo\app\libs\ksoap2-android-assembly-3.4.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="45fbaab416fb5cff992e662d1f7a83786f084fc3">
+        <dex dex="D:\AndroidStudioProjects\Demo\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.4.0-jar-with-dependencies-d65766120eb83f883568cdcc770ef9d059111887.jar" />
+    </item>
 
 </items>

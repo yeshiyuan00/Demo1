@@ -219,24 +219,36 @@
         <activity android:name="com.exp.ysy.demo.URLActivity" />
         <activity
             android:name="com.net.SimpleClient"
-            android:label="@string/title_activity_simple_client" >
-        </activity>
+            android:label="@string/title_activity_simple_client" />
         <activity
             android:name="com.net.MultiThreadClient"
-            android:label="@string/title_activity_multi_thread_client" >
-        </activity>
+            android:label="@string/title_activity_multi_thread_client" />
         <activity
             android:name="com.net.URLTest"
-            android:label="@string/title_activity_urltest" >
-        </activity>
+            android:label="@string/title_activity_urltest" />
         <activity
             android:name="com.net.GetPostMain"
-            android:label="@string/title_activity_get_post_main" >
-        </activity>
+            android:label="@string/title_activity_get_post_main" />
         <activity
             android:name="com.net.MultiThreadDown"
-            android:label="@string/title_activity_multi_thread_down" >
-        </activity>
+            android:label="@string/title_activity_multi_thread_down" />
+        <activity
+            android:name="com.net.HttpClientTets"
+            android:label="@string/title_activity_http_client_tets" />
+        <activity
+            android:name="com.net.MiniBrowser"
+            android:label="@string/title_activity_mini_browser" />
+        <activity
+            android:name="com.net.ViewHtml"
+            android:label="@string/title_activity_view_html" />
+        <activity android:name="com.net.JsCallAndroid" />
+        <activity
+            android:name="com.net.MyWeather"
+            android:label="@string/title_activity_my_weather" />
+
+        <!-- 手机桌面 -->
+        <activity android:name="com.exp.ysy.demo.DesktopActivity" />
+        <activity android:name="com.desktop.WallPaperTest" />
     </application>
 
 </manifest>
