@@ -63,6 +63,8 @@ public class MyActivity extends Activity implements AdapterView.OnItemClickListe
         list_demo.add(18, "Service");
         list_demo.add(19, "网络应用");
         list_demo.add(20, "手机桌面管理");
+        list_demo.add(21, "Audio");
+        list_demo.add(22, "OpenGL");
 
 
         ArrayAdapter adapter = new ArrayAdapter(this,
@@ -194,6 +196,14 @@ public class MyActivity extends Activity implements AdapterView.OnItemClickListe
 
                 Intent intent20 = new Intent(MyActivity.this, DesktopActivity.class);
                 startActivity(intent20);
+            case 21:
+
+                Intent intent21 = new Intent(MyActivity.this, AudioActivity.class);
+                startActivity(intent21);
+            case 22:
+
+                Intent intent22 = new Intent(MyActivity.this, OpenGLActivity.class);
+                startActivity(intent22);
         }
     }
 }

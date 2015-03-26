@@ -212,10 +212,11 @@ containing a value of this type.
         public static final int play_button=0x7f020042;
         public static final int play_button_pressed=0x7f020043;
         public static final int radio_pressed=0x7f020044;
-        public static final int seekbar_style_b=0x7f020045;
-        public static final int ssekbar_style=0x7f020046;
-        public static final int thunb=0x7f020047;
-        public static final int tulips=0x7f020048;
+        public static final int sand=0x7f020045;
+        public static final int seekbar_style_b=0x7f020046;
+        public static final int ssekbar_style=0x7f020047;
+        public static final int thunb=0x7f020048;
+        public static final int tulips=0x7f020049;
     }
     public static final class id {
         public static final int act_demo=0x7f090026;

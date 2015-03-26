@@ -35,6 +35,10 @@
     <!-- 更换壁纸权限 -->
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
 
+    <!-- 音频特效 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
@@ -249,6 +253,16 @@
         <!-- 手机桌面 -->
         <activity android:name="com.exp.ysy.demo.DesktopActivity" />
         <activity android:name="com.desktop.WallPaperTest" />
+
+        <!-- Audio -->
+        <activity android:name="com.exp.ysy.demo.AudioActivity" />
+        <activity android:name="com.audio.MediaPlayerTest" />
+
+        <!-- OpenGL -->
+        <activity android:name="com.exp.ysy.demo.OpenGLActivity" />
+        <activity android:name="com.com.opengl.Polygon" />
+        <activity android:name="com.com.opengl.Simple3D" />
+        <activity android:name="com.com.opengl.Texture3D" />
     </application>
 
 </manifest>
